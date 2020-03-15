@@ -1,0 +1,101 @@
+@media only screen and (max-width:1340px)
+{
+.menuitemcode1{
+    display: none;
+}
+}
+@media only screen and (max-width:1160px)
+{
+.menuitemcode{
+    display: none;
+}
+}
+
+@media only screen and (max-width:1230px)
+{
+    .imagebar{
+        width:250px;
+        height: 180px;
+    }
+    .imagerbar1{
+        margin-left: 5rem;
+    }
+    .imagerbar3{
+        margin-left: 51rem;
+        
+    }
+
+}
+@media only screen and (max-width:1130px)
+{
+    .imagerbar1{
+        margin-left: 10rem;
+    }
+    .imagerbar3{
+        margin-left: 46rem;
+    }
+}
+@media only screen and (max-width:1040px)
+{
+    .imagerbar2{
+        margin-left: 26rem;
+    }
+    .imagerbar3{
+        margin-left: 41rem;
+    }
+}
+@media only screen and (max-width:950px)
+{
+    .imagerbar3{
+        display: none;
+    }
+}
+@media only screen and (max-width:770px)
+{
+    .imagerbar2{
+        display: none;
+    }    
+}
+@media only screen and (max-width:590px){
+    .imagerbar1{
+        margin-left: 5rem;
+    }
+}
+@media only screen and (max-width:550px){
+    .aboutheadertitle{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width:500px){
+    .userregisterform{
+        font-size: 1rem;
+        width: 12rem;
+    }  
+    .ent{
+        width: 14rem;
+    }
+}
+@media only screen and (max-width:420px){
+    .imagerbar1{
+        margin-left: 0rem;
+    }
+}
+@media only screen and (max-width:400px){
+    .btn_save{
+        width: 10rem;
+    }
+    .btn_depo{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:350px){
+    .userregisterform{
+        width: 12rem;
+    }  
+}
+@media only screen and (max-width:920px)
+{
+    .menu{
+        display: none;
+    }
+}

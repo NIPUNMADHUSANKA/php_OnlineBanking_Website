@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-Jul-2019, 23:23:54
+    Author     : MYPC
+*/
+
+footer{
+    font-family: 'Flamenco', cursive;
+    font-size: 15px;
+    
+     background-color: #000e0b;
+    color: #ffffff;
+    padding-block-start: 50px;
+    padding-inline-start: 100px;
+    padding-inline-end: 100px;
+    padding-block-end: 50px;
+    height: 50%;
+}
+.icon{
+    padding-block-end: 10px;
+}
+.seperateline{
+    width: 100%;
+}
+.mission{
+    max-width: 230px;
+    padding-inline-end: 20px;
+    align-content: center;
+    justify-content: space-between;
+    text-align: justify;
+
+}
+.detailpage{
+  display: none;
+}
+.contact{
+    position: absolute;
+    margin-block-start: -80px;
+    max-width: 230px;
+    align-content: center;
+    justify-content: space-between;
+    text-align: justify;
+    margin-inline-start: 300px;
+    padding-inline-end: 100px;
+}
+td{
+    padding-block-end: 5px;
+    padding-inline-end: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+.rat{
+    padding-block-start: 20px;
+}
+.link{
+    position: absolute;
+    margin-inline-start:700px;
+    margin-block-start: -80px;
+    max-width: 230px;
+    align-content: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+ul{
+    margin-inline-start: 20px;
+}
+.Time{
+    position: absolute;
+    margin-inline-start:900px;
+    margin-block-start: -80px;
+    margin-inline-end: 20px;
+    max-width: 230px;
+    align-content: center;
+    justify-content: space-between;
+    text-align: justify;
+
+}
+.pet{
+ word-spacing: 1px;
+}
+.seperateline{
+    margin-block-start: 60px;
+    margin-block-end: 20px;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:1339px){
+    footer{
+        padding-inline-start: 80px;
+        padding-inline-end: 80px;
+    }
+
+}
+@media only screen and (max-width:1098px){
+    .Time{
+     margin-block-start: 60px;
+     margin-inline-start: 300px;
+
+    }
+    .seperateline{
+        margin-block-start: 180px;
+        padding-inline-end: 180px;
+
+    }
+   footer{
+       height: 60%;
+       width: 1098px;
+    }
+}
+@media only screen and (max-width:926px){
+    .Time
+    {
+        margin-inline-start: 0px;
+    }
+    .link
+    {
+        margin-block-start: 60px;
+        margin-inline-start: 300px;
+    }
+
+}
+@media only screen and (max-width:741px){
+    .Time
+    {
+        margin-block-start: 200px;
+        margin-inline-start: 0px;
+    }
+    .link
+    {
+        margin-block-start: -80px;
+        margin-inline-start: 300px;
+    }
+    .contact
+    {
+        margin-block-start: 60px;
+        margin-inline-start: 0px;
+    }
+    .seperateline{
+        margin-block-start: 300px;
+        padding-inline-end: 80px;
+    }
+    footer{
+        height: 80%;
+    }
+
+}
+@media only screen and (max-width:514px){
+    .Time
+    {
+        margin-block-start: 320px;
+        margin-inline-start: 0px;
+    }
+    .link
+    {
+        margin-block-start: 200px;
+        margin-inline-start: 0px;
+    }
+
+    .seperateline{
+        margin-block-start: 450px;
+        padding-inline-end: 80px;
+
+    }
+    footer{
+        height: 120%;
+    }
+
+}
+
+@media only screen and (max-width:440px)
+{
+    .icon{
+        margin-inline-start:-30px;
+        max-width: 200px;
+    }
+    .mission{
+        margin-inline-start:-30px;
+        max-width: 200px;
+        word-spacing: 1px;
+    }
+    .Time{
+        margin-inline-start:-30px;
+    }
+    .link{
+        margin-inline-start:-30px;
+    }
+    .contact{
+        margin-inline-start:-30px;
+    }
+    .developer{
+        margin-inline-start:-40px;
+    }
+    footer{
+        height: auto;
+    }
+}
+@media only screen and (max-width:393px)
+{
+    td{
+        padding-inline-end: 8px;
+    }
+}
+@media only screen and (max-width:378px)
+{
+    td{
+        font-size: 12px;
+    }
+}

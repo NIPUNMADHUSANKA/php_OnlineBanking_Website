@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background-color: #eee;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #333;
+    margin-top: 3rem;
+    margin-left: 5.7rem;
+}
+.col{
+    color: #555;
+    margin-top: -5rem;
+}
+.menu{
+    float: right;
+    margin-top: -1.7rem;
+}
+.menu_item{
+   list-style: none;
+}
+.menu_item li{
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    
+}
+.main-text{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 0.1rem;
+    color: #444;
+}
+.imagebar{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    border: 1px solid #eee;
+}
+.imagerbar2{
+    margin-left: 28rem;
+    
+}
+.imagerbar3{
+    margin-left: 55rem;
+}
+.imagebar4{
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 25rem;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+.col1{
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+    padding-bottom:0.25rem;
+    padding-right: 0.5rem;
+}
+.col1:hover{
+    color: #222;
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+}
+.detailheading{
+    font-family: Flamenco;
+    text-align: center;
+    margin-top:16rem; 
+    color: #666;
+
+}
+.detailheading:hover{
+    font-family: Flamenco;
+    color: #000;
+    text-transform: uppercase;
+}
+.paracol{
+    text-align: justify;
+    justify-content: space-between;
+    margin: 2rem;
+    line-height: 1.5rem;
+}
+.aboutheader{
+    font-family: Flamenco;
+    color: #fff;
+    background-color: rgb(68, 66, 100);
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: 2rem;
+    padding:1rem 2rem;
+    padding-left: 6rem;
+}
+.imagebody{
+    width: 500px;
+    height: 300px;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+.detailsabout{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    margin-top: -18rem;
+    margin-left: 35rem;
+    color: #444;
+}
+.detailsservices{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 2rem;
+    color: #444;
+    
+}
+.detailsprivacy{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: 2rem;
+    color: #444;
+}
+.submenu{
+    list-style: none;
+    background-color: #eee;
+    color: #444;
+    width: 10rem;
+    padding: 1.5rem;
+    margin-left:20rem; 
+    display: none;
+    
+}
+.submenu li{
+    margin-bottom: 1rem;
+    color:#666;
+}
+.submenu1{
+    list-style: none;
+    background-color: #eee;
+    color: #444;
+    width: 10rem;
+    padding: 1rem;
+    margin-left:5rem; 
+    display: none;
+}
+.submenu1 li{
+    margin-bottom: 1rem;
+}
+.submenu2{
+    list-style: none;
+    background-color: #eee;
+    color: #444;
+    width: 12rem;
+    padding: 1rem;
+    margin-left:25rem; 
+    display: none;
+}
+.submenu2 li{
+    margin-bottom: 1rem;
+}
+.para1{
+    animation: text 3s 1;
+    
+}
+@keyframes text{
+   0%{
+        margin-bottom: -80px;
+    }
+    
+}
+.userregisterform{
+    text-transform:uppercase;
+    background-color: rgb(68, 66, 100);
+    color:fff;
+    width:25rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+.lbl{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ent{
+    width: 15rem;
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn{
+    width: 20rem;
+    margin-top: 1rem;
+    height: 1.5rem;
+    font-size: 1.2rem;
+    color: #444;
+    padding: 0.5rem;
+    border: 1px solid #aaa;
+    border-radius: 100px;
+}
+.btn:hover{
+    background-color: rgb(68, 66, 100);
+    color: #fff;
+    border: 1px solid none;
+    cursor: pointer;
+}
