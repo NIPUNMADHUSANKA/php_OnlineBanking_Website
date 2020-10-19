@@ -24,6 +24,9 @@ body, #slider, .wrap, .slide-content{
   .slide3{
     background-image: url('../images/image3.png');
   }
+  .slide4{
+    background-image: url('../images/image4.jpg');
+  }
   .slide-content{
      display: flex;
      flex-direction: column;
