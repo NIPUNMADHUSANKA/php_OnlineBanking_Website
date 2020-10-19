@@ -129,6 +129,7 @@ or other financial instittion to conduct a range of financial institution's webs
         <center><hr class="seperateline"></center>
         <div class="developer">
             <h3>Develpoed by: Nipun Madhusanka</h3>
+            <h4>All Rights Reserved</h4>
 
         </div>
 
