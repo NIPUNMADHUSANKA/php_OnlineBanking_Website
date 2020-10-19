@@ -34,6 +34,7 @@
                         <li><a href="aboutus.php" class="col1">About Us</a></li>
                         <li><a href="services.php" class="col1">Service</a></li>
                          <li><a href="privacy.php" class="col1">Privacy</a></li>
+                         <li><a href="index.php" class="col1">Home2</a></li>
                         <li><a  class="col1 colsub" onclick="slideshow()">Accountant</a></li>
                     </ul>
                     <ul class="submenu" id="check-class">
